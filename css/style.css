@@ -1,0 +1,72 @@
+h1 {
+    color:sienna;
+    font-family: Roboto-regular;
+    text-align: center;
+}
+h2 {
+    color:salmon;
+    font-family: Roboto-regular;
+    text-align: center;
+}
+body{
+    font-family: Roboto-regular;
+}
+#sidebar{
+    color:slateblue;
+    text-align: right;
+}
+p,label, h5{
+    color: teal;
+}    
+.test h2{
+    color: seagreen;
+}
+
+.test + h2{
+    background-color:thistle;
+}
+/*mouse over element*/
+a:hover{
+    color: yellowgreen;
+}
+/*visited link*/
+a:visited{
+    color: violet;
+}
+#sidebar{
+    padding: 25px 25px
+  }
+section{
+    margin: 50px;
+}
+footer{
+    text-align: right;
+}
+h2{
+    border: medium solid yellowgreen;
+    border-radius: 15px;
+}
+section{
+    display:block;
+    
+ }
+    h2{
+        background:wheat;
+      
+    }
+label, input{
+    display: inline;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    display: inline-block;
+  }
+img{
+    border: medium solid black;
+    border-radius: 10px;
+    display:block;
+    margin: auto;
+    
+}
